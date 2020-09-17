@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en" charset="UTF-8" >
+    <head>
+        <title>NZ COVID-19 Cases</title>
+        <link href="fcam961.css" rel="stylesheet">
+        <script type="text/javascript" src="fcam961.js"></script>
+    </head>
+    <body>
+
+    <div class="top-bar">
+        <h1>COVID-19 Data</h1>
+        <h2>New Zealand</h2>
+    </div>
+    <div id="date-text"></div>
+    <div class="data-box">
+        <div class = "data" id="active-cases">
+            <p class="data-title">Active Cases</p>
+
+        </div>
+        <div class = "data" id="total-cases">
+            <p class="data-title">Total Cases</p>
+        </div>
+        <div class = "data" id="recovered">
+            <p class="data-title">Total Recovered</p>
+        </div>
+        <div class = "data" id="deaths">
+            <p class="data-title">Total Deaths</p>
+        </div>
+    </div>
+    <div>
+        <p class="date">Cases Numbers Over Time</p>
+        <svg xmlns="http://www.w3.org/2000/svg" height="10%" width="75%" viewBox="0 0 800 600" id="chart" class = "graph">
+            <line x1="5" y1="500" x2="700" y2="500" stroke="white" stroke-width="2"/>
+            <line x1="5" y1="200" x2="5" y2="500" stroke="white" stroke-width="2"/>
+            <text x="300" y="520" fill="white">Infections</text>
+
+        </svg>
+    </div>
+
+
+    </body>
+    
+
+</html>
